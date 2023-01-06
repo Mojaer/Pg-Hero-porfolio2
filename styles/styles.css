@@ -22,13 +22,18 @@
 /* header and navigation styles */
 .header{
 background: #FFF8F3;
+background-image: url('/images/header_bg.png'),url("/images/developer.png");
+background-repeat: no-repeat;
+background-position: bottom right, left;
+
+/* padding-top: 20px; this resolves the top white problem*/
 
 }
 
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
 }
 
 nav ul{
@@ -68,3 +73,43 @@ nav ul li{
     margin-bottom: 30px;
 }
 
+/* main section styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about{
+    margin-top: 130px;
+    background: #FFF8F3;
+    text-align: center;
+border-radius: 10px;
+padding: 130px 156px;
+
+}
+.section-tittle{
+    
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+}
+.section-description{
+    color: #757575;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about .info-tittle{
+ font-size: 20px;
+ color: #757575;   
+}
+.about .info-description{
+    font-weight: 700;
+font-size: 20px;
+color: #474747;
+
+}
